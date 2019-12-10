@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">2b858e03db8584107ea973ffbf9619f3</sp_column>
+        <sp_widget display_value="ICUCatalogItem">d7854a8bdb4584107ea973ffbf961975</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-15 21:26:32</sys_created_on>
+        <sys_id>ab858e03db8584107ea973ffbf9619f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ICU 2" source="x_379446_icu_2">8f15382adbf804507ea973ffbf961976</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ICU 2">8f15382adbf804507ea973ffbf961976</sys_scope>
+        <sys_update_name>sp_instance_ab858e03db8584107ea973ffbf9619f5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-15 21:26:32</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=ab858e03db8584107ea973ffbf9619f5"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ICU 2">8f15382adbf804507ea973ffbf961976</application>
+        <file_path/>
+        <instance_id>78d434614f0b920494ac220f0310c793</instance_id>
+        <instance_name>dev22529</instance_name>
+        <name>sp_instance_ab858e03db8584107ea973ffbf9619f5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">2b858e03db8584107ea973ffbf9619f3</sp_column><sp_widget display_value="ICUCatalogItem">d7854a8bdb4584107ea973ffbf961975</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-11-15 21:26:32</sys_created_on><sys_id>ab858e03db8584107ea973ffbf9619f5</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="ICU 2" source="x_379446_icu_2">8f15382adbf804507ea973ffbf961976</sys_package><sys_policy/><sys_scope display_value="ICU 2">8f15382adbf804507ea973ffbf961976</sys_scope><sys_update_name>sp_instance_ab858e03db8584107ea973ffbf9619f5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-11-15 21:26:32</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=ab858e03db8584107ea973ffbf9619f5"/></record_update>]]></payload>
+        <payload_hash>-1273572625</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>c315382adbf804507ea973ffbf961979</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-15 21:26:32</sys_created_on>
+        <sys_id>a385ce03db8584107ea973ffbf961929</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e70f5e0a50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-15 21:26:32</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>eb85ce03e28584101b21481576749428</update_guid>
+        <update_guid_history>eb85ce03e28584101b21481576749428:-1273572625</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">f706ca43db8584107ea973ffbf9619b3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-15 21:28:45</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>1863fa86a1d744c1889b5ef9ad725201</sys_id>
+        <sys_metadata>ab858e03db8584107ea973ffbf9619f5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ICU 2" source="x_379446_icu_2">8f15382adbf804507ea973ffbf961976</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ICU 2">8f15382adbf804507ea973ffbf961976</sys_scope>
+        <sys_scope_delete display_value="">18703828f9c34949b774ffeeeba5de59</sys_scope_delete>
+        <sys_update_name>sp_instance_ab858e03db8584107ea973ffbf9619f5</sys_update_name>
+        <sys_update_version display_value="sp_instance_ab858e03db8584107ea973ffbf9619f5">a385ce03db8584107ea973ffbf961929</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-15 21:28:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

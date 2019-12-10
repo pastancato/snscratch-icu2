@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_379446_icu_2.foreign_national_user" name="x_379446_icu_2.foreign_national_user">f71405eedbf804507ea973ffbf9619aa</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-01 17:07:59</sys_created_on>
+        <sys_id>3314c5aadb3c04507ea973ffbf961979</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>f71405eedbf804507ea973ffbf9619aa</sys_name>
+        <sys_package display_value="ICU 2" source="x_379446_icu_2">8f15382adbf804507ea973ffbf961976</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ICU 2">8f15382adbf804507ea973ffbf961976</sys_scope>
+        <sys_update_name>sys_embedded_help_role_3314c5aadb3c04507ea973ffbf961979</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-01 17:07:59</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

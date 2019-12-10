@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_aw_module">
+    <sys_aw_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <content display_value="Inbox Module Content">3685746adbf804507ea973ffbf9619d4</content>
+        <content_attrs/>
+        <content_component display_value="sn-inbox">c1fbc4bb77b31300c438c277d8106134</content_component>
+        <content_tag/>
+        <detail display_value="Inbox Module Detail">7e85746adbf804507ea973ffbf9619e5</detail>
+        <detail_attrs/>
+        <detail_component display_value="sn-inbox-empty">ee222d2bff222300294153bd6338f113</detail_component>
+        <detail_tag/>
+        <hide_until_ready>false</hide_until_ready>
+        <icon>inbox-outline</icon>
+        <id>inbox</id>
+        <label>Inbox</label>
+        <order>200</order>
+        <roles/>
+        <sys_class_name>sys_aw_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-01 16:04:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>f285746adbf804507ea973ffbf9619cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>inbox</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ICU 2" source="x_379446_icu_2">8f15382adbf804507ea973ffbf961976</sys_package>
+        <sys_policy/>
+        <sys_props/>
+        <sys_scope display_value="ICU 2">8f15382adbf804507ea973ffbf961976</sys_scope>
+        <sys_update_name>sys_aw_module_f285746adbf804507ea973ffbf9619cc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-01 16:04:17</sys_updated_on>
+        <toolbar_button display_value="Inbox Button">3a85746adbf804507ea973ffbf9619cc</toolbar_button>
+        <type>master_detail</type>
+        <workspace_config display_value="ICU 2">e6853c2adbf804507ea973ffbf961918</workspace_config>
+    </sys_aw_module>
+    <sys_variable_value action="delete_multiple" query="document_key=f285746adbf804507ea973ffbf9619cc"/>
+</record_update>

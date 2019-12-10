@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="email_client=true" audit="true" extends="task" label="ICU Case" max_length="40" name="x_379446_icu_2_icu_case" sizeclass="9" type="collection">
+        <element choice="1" label="Case status" max_length="40" name="case_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Submitted" sequence="1" value="submitted"/>
+                <element inactive_on_update="false" label="Intake in Process" sequence="2" value="intake"/>
+                <element inactive_on_update="false" label="Pending with IC" sequence="3" value="pending-ic"/>
+                <element inactive_on_update="false" label="Pending with USCIS" sequence="4" value="pending-uscis"/>
+                <element inactive_on_update="false" label="Withdrawn" sequence="5" value="withdrawn"/>
+                <element inactive_on_update="false" label="Approved" sequence="6" value="approved"/>
+                <element inactive_on_update="false" label="Denied" sequence="7" value="denied"/>
+                <element inactive_on_update="false" label="On Hold" sequence="8" value="onhold"/>
+                <element inactive_on_update="false" label="Awaiting Department" sequence="9" value="awaiting-department"/>
+            </choice>
+        </element>
+        <element label="Admin contact" max_length="32" name="u_admin_contact" reference="sys_user" type="reference"/>
+        <element label="Billed date" max_length="40" name="u_billed_dt" type="glide_date"/>
+        <element label="Cultural exchange" max_length="40" name="u_cultural_exchange" type="boolean"/>
+        <element choice="1" label="Degree required" max_length="40" name="u_degree_required" type="choice">
+            <choice/>
+        </element>
+        <element label="Requesting department" max_length="32" name="u_department" reference="cmn_department" type="reference"/>
+        <element label="Effort" max_length="40" name="u_effort" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Interactive email" max_length="40" name="u_email_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="H-1B Approval" sequence="0" value="h1bapproval"/>
+                <element inactive_on_update="false" label="H-1B Expiring" sequence="1" value="h1bexpiring"/>
+                <element inactive_on_update="false" label="FN Request" sequence="2" value="fnrequest"/>
+                <element inactive_on_update="false" label="FN Followup" sequence="3" value="fnfollowup"/>
+                <element inactive_on_update="false" label="IC Information" sequence="4" value="icinformation"/>
+            </choice>
+        </element>
+        <element label="Expense reimbursement" max_length="40" name="u_expenses" type="string"/>
+        <element label="Experience required" max_length="40" name="u_experience_required" type="string"/>
+        <element label="Foreign national" max_length="32" name="u_fn" reference="x_379446_icu_2_foreign_national" type="reference"/>
+        <element label="HIPAA OSHA training" max_length="40" name="u_hipaaosha" type="boolean"/>
+        <element choice="1" label="Immigration request type" max_length="40" name="u_immigration_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Non Immigrant Visa" value="non-immigrant"/>
+                <element inactive_on_update="false" label="Permanent Resident" value="permanent-resident"/>
+            </choice>
+        </element>
+        <element choice="1" label="Intake type" max_length="40" name="u_intake_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="0" value="new"/>
+                <element inactive_on_update="false" label="Amendment" sequence="1" value="amendment"/>
+                <element inactive_on_update="false" label="Extension" sequence="2" value="extension"/>
+                <element inactive_on_update="false" label="Transfer-out" sequence="3" value="transfer-out"/>
+                <element inactive_on_update="false" label="Termination/Departure" sequence="4" value="termination"/>
+            </choice>
+        </element>
+        <element label="Job title" max_length="40" name="u_jobtitle" type="string"/>
+        <element label="Job description" max_length="40" name="u_job_descr" type="string"/>
+        <element label="License required" max_length="40" name="u_license_required" type="string"/>
+        <element label="Major required" max_length="40" name="u_major_required" type="string"/>
+        <element label="Notes" max_length="40" name="u_notes" type="string"/>
+        <element label="Other employers" max_length="40" name="u_other_employers" type="boolean"/>
+        <element label="Other training required" max_length="40" name="u_other_training" type="string"/>
+        <element label="Outside salary" max_length="20" name="u_outside_salary" type="currency"/>
+        <element choice="1" label="Planned activities" max_length="40" name="u_planned_activities" type="choice">
+            <choice/>
+        </element>
+        <element label="Primary contact" max_length="32" name="u_primary_contact" reference="sys_user" type="reference"/>
+        <element choice="1" label="Immigration request category" max_length="40" name="u_request_category" type="choice">
+            <choice/>
+        </element>
+        <element label="RIF" max_length="40" name="u_rif" type="boolean"/>
+        <element label="Salary" max_length="20" name="u_salary" type="currency"/>
+        <element label="Shortcode" max_length="40" name="u_shortcode" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Sub tasks" max_length="40" name="u_subtasks_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="H1-B" sequence="0" value="h1b"/>
+                <element inactive_on_update="false" label="J-1" sequence="1" value="j1"/>
+                <element inactive_on_update="false" label="X" sequence="2" value="x"/>
+            </choice>
+        </element>
+        <element label="Supervising count" max_length="40" name="u_supervising_count" type="integer"/>
+        <element label="Supervisor" max_length="32" name="u_supervisor" reference="sys_user" type="reference"/>
+        <element label="Tenure track" max_length="40" name="u_tenure_track" type="boolean"/>
+        <element label="Training position" max_length="40" name="u_training" type="boolean"/>
+        <element label="Travel required" max_length="40" name="u_travel_required" type="string"/>
+        <element label="VA affiliation" max_length="40" name="u_va_affiliation" type="boolean"/>
+        <element label="Visa end date" max_length="40" name="u_visa_end_dt" type="glide_date"/>
+        <element label="Visa start date" max_length="40" name="u_visa_start_dt" type="glide_date"/>
+        <element choice="1" label="Visa type" max_length="40" name="u_visa_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="B-1" value="b1"/>
+                <element inactive_on_update="false" label="B-2" value="b2"/>
+                <element inactive_on_update="false" label="E-3" value="e3"/>
+                <element inactive_on_update="false" label="Green Card" value="greencard"/>
+                <element inactive_on_update="false" label="H-1B" value="h1b"/>
+                <element inactive_on_update="false" label="J-1" value="j1"/>
+                <element inactive_on_update="false" label="O-1" value="o1"/>
+                <element inactive_on_update="false" label="TN" value="tn"/>
+                <element inactive_on_update="false" label="VWP" value="vwp"/>
+            </choice>
+        </element>
+        <element label="Work city" max_length="40" name="u_work_city" type="string"/>
+        <element label="Work location" max_length="40" name="u_work_location" type="string"/>
+        <element label="Work state" max_length="40" name="u_work_state" type="string"/>
+        <element label="Work zip code" max_length="40" name="u_zipcode" type="string"/>
+    </element>
+</database>

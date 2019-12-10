@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_subtasks_type" table="x_379446_icu_2_icu_case" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_subtasks_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>H1-B</label>
+            <language>en</language>
+            <name>x_379446_icu_2_icu_case</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-13 18:48:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ca1e0f56db41c0107ea973ffbf961926</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-13 18:48:01</sys_updated_on>
+            <value>h1b</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_subtasks_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>J-1</label>
+            <language>en</language>
+            <name>x_379446_icu_2_icu_case</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-13 18:48:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>421e0f56db41c0107ea973ffbf961929</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-13 18:48:01</sys_updated_on>
+            <value>j1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_subtasks_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>X</label>
+            <language>en</language>
+            <name>x_379446_icu_2_icu_case</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-13 18:48:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>021e0f56db41c0107ea973ffbf96192b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-13 18:48:01</sys_updated_on>
+            <value>x</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_subtasks_type</element>
+            <name>x_379446_icu_2_icu_case</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-13 18:48:01</sys_created_on>
+            <sys_id>461e0f56db41c0107ea973ffbf961927</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_subtasks_type</sys_name>
+            <sys_package display_value="ICU 2" source="x_379446_icu_2">8f15382adbf804507ea973ffbf961976</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ICU 2">8f15382adbf804507ea973ffbf961976</sys_scope>
+            <sys_update_name>sys_choice_x_379446_icu_2_icu_case_u_subtasks_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-13 18:48:01</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

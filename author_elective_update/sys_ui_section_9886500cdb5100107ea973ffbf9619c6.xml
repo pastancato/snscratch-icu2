@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Case Work" section_id="9886500cdb5100107ea973ffbf9619c6" sys_domain="global" table="x_379446_icu_2_icu_case" version="3" view="Casework">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_subtasks_type</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-18 15:55:16</sys_created_on>
+            <sys_id>9886900cdb5100107ea973ffbf961942</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Case Work" display_value="Case Work" name="x_379446_icu_2_icu_case" sys_domain="global" view="78dad5f0db41cc507ea973ffbf9619be">9886500cdb5100107ea973ffbf9619c6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-18 15:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-18 15:55:16</sys_created_on>
+            <sys_id>1c86900cdb5100107ea973ffbf961942</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Case Work" display_value="Case Work" name="x_379446_icu_2_icu_case" sys_domain="global" view="78dad5f0db41cc507ea973ffbf9619be">9886500cdb5100107ea973ffbf9619c6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-18 15:55:16</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_email_type</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-18 15:55:16</sys_created_on>
+            <sys_id>9c86900cdb5100107ea973ffbf961942</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Case Work" display_value="Case Work" name="x_379446_icu_2_icu_case" sys_domain="global" view="78dad5f0db41cc507ea973ffbf9619be">9886500cdb5100107ea973ffbf9619c6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-18 15:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Case Work</caption>
+            <header>false</header>
+            <name>x_379446_icu_2_icu_case</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-18 15:55:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9886500cdb5100107ea973ffbf9619c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Case Work</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ICU 2" source="x_379446_icu_2">8f15382adbf804507ea973ffbf961976</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ICU 2">8f15382adbf804507ea973ffbf961976</sys_scope>
+            <sys_update_name>sys_ui_section_9886500cdb5100107ea973ffbf9619c6</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-18 15:55:16</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Casework" name="Casework">78dad5f0db41cc507ea973ffbf9619be</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ICU 2">8f15382adbf804507ea973ffbf961976</application>
+        <file_path/>
+        <instance_id>78d434614f0b920494ac220f0310c793</instance_id>
+        <instance_name>dev22529</instance_name>
+        <name>sys_ui_section_9886500cdb5100107ea973ffbf9619c6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Case Work" section_id="9886500cdb5100107ea973ffbf9619c6" sys_domain="global" table="x_379446_icu_2_icu_case" version="3" view="Casework"><sys_ui_element action="INSERT_OR_UPDATE"><element>u_subtasks_type</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-11-18 15:55:16</sys_created_on><sys_id>9886900cdb5100107ea973ffbf961942</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Case Work" display_value="Case Work" name="x_379446_icu_2_icu_case" sys_domain="global" view="78dad5f0db41cc507ea973ffbf9619be">9886500cdb5100107ea973ffbf9619c6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-11-18 15:55:16</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-11-18 15:55:16</sys_created_on><sys_id>1c86900cdb5100107ea973ffbf961942</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Case Work" display_value="Case Work" name="x_379446_icu_2_icu_case" sys_domain="global" view="78dad5f0db41cc507ea973ffbf9619be">9886500cdb5100107ea973ffbf9619c6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-11-18 15:55:16</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_email_type</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-11-18 15:55:16</sys_created_on><sys_id>9c86900cdb5100107ea973ffbf961942</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Case Work" display_value="Case Work" name="x_379446_icu_2_icu_case" sys_domain="global" view="78dad5f0db41cc507ea973ffbf9619be">9886500cdb5100107ea973ffbf9619c6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-11-18 15:55:16</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Case Work</caption><header>false</header><name>x_379446_icu_2_icu_case</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-11-18 15:55:16</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9886500cdb5100107ea973ffbf9619c6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Case Work</sys_name><sys_overrides/><sys_package display_value="ICU 2" source="x_379446_icu_2">8f15382adbf804507ea973ffbf961976</sys_package><sys_policy/><sys_scope display_value="ICU 2">8f15382adbf804507ea973ffbf961976</sys_scope><sys_update_name>sys_ui_section_9886500cdb5100107ea973ffbf9619c6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-11-18 15:55:16</sys_updated_on><sys_user/><title>false</title><view display_value="Casework" name="Casework">78dad5f0db41cc507ea973ffbf9619be</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>852563567</payload_hash>
+        <record_name>ICU Case</record_name>
+        <reverted_from/>
+        <source>c315382adbf804507ea973ffbf961979</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 15:55:16</sys_created_on>
+        <sys_id>5486900cdb5100107ea973ffbf961944</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e7f39adb30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 15:55:16</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>dc86900c325100105ae0e7324658ee43</update_guid>
+        <update_guid_history>dc86900c325100105ae0e7324658ee43:852563567</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 15:55:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>27dfd56148464b22891704de6ffad889</sys_id>
+        <sys_metadata>9886500cdb5100107ea973ffbf9619c6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Case Work</sys_name>
+        <sys_package display_value="ICU 2" source="x_379446_icu_2">8f15382adbf804507ea973ffbf961976</sys_package>
+        <sys_parent display_value="ICU Case">ee4fa428dbc94c507ea973ffbf961981</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ICU 2">8f15382adbf804507ea973ffbf961976</sys_scope>
+        <sys_scope_delete display_value="">18703828f9c34949b774ffeeeba5de59</sys_scope_delete>
+        <sys_update_name>sys_ui_section_9886500cdb5100107ea973ffbf9619c6</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_9886500cdb5100107ea973ffbf9619c6">5486900cdb5100107ea973ffbf961944</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 15:55:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">d5e9f103db4584107ea973ffbf961900</sp_column>
+        <sp_widget display_value="link-button">abc50de6d702120023c84f80de61036a</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-20 14:36:38</sys_created_on>
+        <sys_id>7ba7dea8db51c0107ea973ffbf9619b4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ICU 2" source="x_379446_icu_2">8f15382adbf804507ea973ffbf961976</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ICU 2">8f15382adbf804507ea973ffbf961976</sys_scope>
+        <sys_update_name>sp_instance_7ba7dea8db51c0107ea973ffbf9619b4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-20 14:37:10</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"href": {
+		"value": "https://dev22529.service-now.com/icu2?id=sc_cat_item&sys_id=3ea76b50db854c507ea973ffbf96192d&sysparm_category=null&catalog_id=-1",
+		"displayValue": "https://dev22529.service-now.com/icu2?id=sc_cat_item&sys_id=3ea76b50db854c507ea973ffbf96192d&sysparm_category=null&catalog_id=-1"
+	},
+	"button_text": {
+		"value": "ICU Intake",
+		"displayValue": "ICU Intake"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=7ba7dea8db51c0107ea973ffbf9619b4"/>
+</record_update>

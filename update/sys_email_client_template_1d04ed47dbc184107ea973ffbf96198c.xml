@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_email_client_template">
+    <sys_email_client_template action="INSERT_OR_UPDATE">
+        <blind_copied/>
+        <body/>
+        <body_html><![CDATA[<p><span style="font-size: 12pt;">Hi ${opened_by.first_name},</span></p>
+<p><span style="font-size: 12pt;">As a reminder, ${u_fn.u_firstname} ${u_fn.u_lastname}'s H1-B will expire in approximately &lt;n&gt; days. To continue his/her employment beyond &lt;exp date&gt;, please submit an extension intake. It appears that the employee was first granted H1-B status on &lt;date&gt;, so</span></p>
+<p><span style="font-size: 12pt;">up to a three-year extension should be possible, if desired.</span></p>
+<p><span style="font-size: 12pt;">OR</span></p>
+<p><span style="font-size: 12pt;">an extension will likely be limited to approximately &lt;STATUS END-DATE&gt;, unless the individual has time to recapture (time spent outside the USA while in H-1B status) or a pending permanent residency (green card) case in process.</span></p>
+<p><span style="font-size: 12pt;">OR</span></p>
+<p><span style="font-size: 12pt;">the employee may be out of H-1B time to claim, unless the individual has time to recapture (time spent outside the USA while in H-1B status) or a pending permanent residency (green card) case in process.</span></p>
+<p><span style="font-size: 12pt;">OR</span></p>
+<p><span style="font-size: 12pt;">[For H-1B employees only &ndash;&nbsp; PR case pending and within or outside 6 year limit (out of time)]</span></p>
+<p><span style="font-size: 12pt;">Although he/she has a permanent residency case pending, it is unlikely that their case will be approved before the expiration of their current H-1B.</span></p>]]></body_html>
+        <condition table="x_379446_icu_2_icu_case">u_email_type=h1bexpiring^EQ<item display_value="H-1B Expiring" endquery="false" field="u_email_type" goto="false" newquery="false" operator="=" or="false" value="h1bexpiring"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <copied/>
+        <email_client_from_address/>
+        <from/>
+        <from_generation_type/>
+        <name>ICU2 H1B Expiring</name>
+        <order>100</order>
+        <recipients>${opened_by.email}</recipients>
+        <reply_to/>
+        <script_from><![CDATA[(function (fromAddressQuery, targetRecord) {
+		/**
+		 * fromAddressQuery: A GlideRecord on the table "sys_email_client_from_address". Add conditions to filter the
+		 * 		the email addresses displayed in the Email Client. 
+		 * targetRecord: A GlideRecord representing the record in which the Email Client was opened from
+		 */
+
+})(fromAddressQuery, targetRecord);]]></script_from>
+        <subject>H1-B expiration for ${u_fn.u_firstname} ${u_fn.u_lastname}</subject>
+        <sys_class_name>sys_email_client_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-15 19:04:22</sys_created_on>
+        <sys_id>1d04ed47dbc184107ea973ffbf96198c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>ICU2 H1B Expiring</sys_name>
+        <sys_package display_value="ICU 2" source="x_379446_icu_2">8f15382adbf804507ea973ffbf961976</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ICU 2">8f15382adbf804507ea973ffbf961976</sys_scope>
+        <sys_update_name>sys_email_client_template_1d04ed47dbc184107ea973ffbf96198c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-15 21:44:14</sys_updated_on>
+        <table>x_379446_icu_2_icu_case</table>
+    </sys_email_client_template>
+</record_update>

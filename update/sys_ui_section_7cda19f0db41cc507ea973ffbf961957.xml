@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="7cda19f0db41cc507ea973ffbf961957" sys_domain="global" table="x_379446_icu_2_icu_case" version="3" view="Casework">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-18 15:55:16</sys_created_on>
+            <sys_id>d486900cdb5100107ea973ffbf96193c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_379446_icu_2_icu_case" sys_domain="global" view="78dad5f0db41cc507ea973ffbf9619be">7cda19f0db41cc507ea973ffbf961957</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-18 15:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-18 15:55:16</sys_created_on>
+            <sys_id>5886900cdb5100107ea973ffbf96193c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_379446_icu_2_icu_case" sys_domain="global" view="78dad5f0db41cc507ea973ffbf9619be">7cda19f0db41cc507ea973ffbf961957</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-18 15:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>case_status</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-18 15:55:16</sys_created_on>
+            <sys_id>d886900cdb5100107ea973ffbf96193c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_379446_icu_2_icu_case" sys_domain="global" view="78dad5f0db41cc507ea973ffbf9619be">7cda19f0db41cc507ea973ffbf961957</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-18 15:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_billed_dt</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-18 15:55:16</sys_created_on>
+            <sys_id>5c86900cdb5100107ea973ffbf96193c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_379446_icu_2_icu_case" sys_domain="global" view="78dad5f0db41cc507ea973ffbf9619be">7cda19f0db41cc507ea973ffbf961957</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-18 15:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-18 15:55:16</sys_created_on>
+            <sys_id>dc86900cdb5100107ea973ffbf96193c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_379446_icu_2_icu_case" sys_domain="global" view="78dad5f0db41cc507ea973ffbf9619be">7cda19f0db41cc507ea973ffbf961957</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-18 15:55:16</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_fn</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-18 15:55:16</sys_created_on>
+            <sys_id>5086900cdb5100107ea973ffbf96193d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_379446_icu_2_icu_case" sys_domain="global" view="78dad5f0db41cc507ea973ffbf9619be">7cda19f0db41cc507ea973ffbf961957</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-18 15:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_visa_type</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-18 15:55:16</sys_created_on>
+            <sys_id>d086900cdb5100107ea973ffbf96193d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_379446_icu_2_icu_case" sys_domain="global" view="78dad5f0db41cc507ea973ffbf9619be">7cda19f0db41cc507ea973ffbf961957</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-18 15:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_notes</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-18 15:55:16</sys_created_on>
+            <sys_id>5486900cdb5100107ea973ffbf96193d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_379446_icu_2_icu_case" sys_domain="global" view="78dad5f0db41cc507ea973ffbf9619be">7cda19f0db41cc507ea973ffbf961957</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-18 15:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_379446_icu_2_icu_case</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-08 18:33:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7cda19f0db41cc507ea973ffbf961957</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_379446_icu_2_icu_case</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ICU 2" source="x_379446_icu_2">8f15382adbf804507ea973ffbf961976</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ICU 2">8f15382adbf804507ea973ffbf961976</sys_scope>
+            <sys_update_name>sys_ui_section_7cda19f0db41cc507ea973ffbf961957</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-08 18:33:30</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Casework" name="Casework">78dad5f0db41cc507ea973ffbf9619be</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

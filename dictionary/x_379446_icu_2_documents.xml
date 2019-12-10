@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Documents" max_length="40" name="x_379446_icu_2_documents" type="collection">
+        <element choice="1" label="Document type" max_length="40" name="u_doctype" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Form 2" value="form2"/>
+                <element inactive_on_update="false" label="Form A" value="forma"/>
+                <element inactive_on_update="false" label="Misc letter" value="letter"/>
+                <element inactive_on_update="false" label="Offer letter" value="offerletter"/>
+                <element inactive_on_update="false" label="Passport" value="passport"/>
+            </choice>
+        </element>
+        <element label="Foreign national" max_length="32" name="u_fn" reference="x_379446_icu_2_foreign_national" type="reference"/>
+        <element label="ICU Case" max_length="32" name="u_icu_case" reference="x_379446_icu_2_icu_case" type="reference"/>
+        <element label="Date saved" max_length="40" name="u_saved_dt" type="glide_date"/>
+        <index name="index">
+            <element name="u_fn"/>
+        </index>
+        <index name="index2">
+            <element name="u_icu_case"/>
+        </index>
+    </element>
+</database>

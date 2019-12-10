@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_379446_icu_2.icuSubTasks</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>icuSubTasks</name>
+        <script><![CDATA[var icuSubTasks = Class.create();
+icuSubTasks.prototype = {
+    initialize: function() {
+    },
+	addH1BTasks: function(pTaskId){
+		this.uAddSubTask(pTaskId,"Email FN",100);
+		this.uAddSubTask(pTaskId,"Authorization",200);
+		this.uAddSubTask(pTaskId,"Gather Documents",300);
+		this.uAddSubTask(pTaskId,"Check for Fees",400);		
+		this.uAddSubTask(pTaskId,"Email from IC",500);		
+		this.uAddSubTask(pTaskId,"INS Zoom form",600);
+		this.uAddSubTask(pTaskId,"ICU - Department",700);		
+		this.uAddSubTask(pTaskId,"Billing",800);		
+	},
+	addJ1Tasks: function(pTaskId){
+		this.uAddSubTask(pTaskId,"J1 needed",100);
+		this.uAddSubTask(pTaskId,"Email FN",200);
+		this.uAddSubTask(pTaskId,"Skype with FN",200);
+		this.uAddSubTask(pTaskId,"Gather Documents",300);
+		this.uAddSubTask(pTaskId,"ICU Letters",400);		
+		this.uAddSubTask(pTaskId,"Request UMID",500);		
+		this.uAddSubTask(pTaskId,"DS-2019",600);
+		this.uAddSubTask(pTaskId,"Send IC documents",700);			
+	},	
+	uAddSubTask: function(pid,descr,odr) {
+		var t = new GlideRecord("x_379446_icu_2_icu_subtasks");
+		t.initialize();
+		t.u_parent_case = pid;
+		t.u_description = descr;
+		t.u_order = odr;
+		t.insert();
+	},
+    type: 'icuSubTasks'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-13 19:42:23</sys_created_on>
+        <sys_id>dad99bd6db41c0107ea973ffbf961939</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>icuSubTasks</sys_name>
+        <sys_package display_value="ICU 2" source="x_379446_icu_2">8f15382adbf804507ea973ffbf961976</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ICU 2">8f15382adbf804507ea973ffbf961976</sys_scope>
+        <sys_update_name>sys_script_include_dad99bd6db41c0107ea973ffbf961939</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-13 20:21:20</sys_updated_on>
+    </sys_script_include>
+</record_update>

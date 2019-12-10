@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_379446_icu_2.icuFNUtil</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>icuFNUtil</name>
+        <script><![CDATA[var icuFNUtil = Class.create();
+icuFNUtil.prototype = {
+    initialize: function() {
+    },
+	getOrAdd: function(fnobject){
+		var fnr = new GlideRecord('x_379446_icu_2_foreign_national');
+		//check if fn exists
+		fnr.addQuery('u_lastname',fnobject.fn_last_name);
+		fnr.addQuery('u_firstname',fnobject.fn_first_name);
+		fnr.addQuery('u_citizenship',fnobject.fn_citizenship);
+		fnr.addQuery('u_email',fnobject.fn_email_address);
+		fnr.query();
+		if( fnr.next() ){
+			return fnr.sys_id;
+		}
+		else {
+			fnr.initialize();
+			fnr.u_lastname = fnobject.fn_last_name;
+			fnr.u_firstname = fnobject.fn_first_name;
+			fnr.u_citizenship = fnobject.fn_citizenship;
+			fnr.u_email = fnobject.fn_email_address;
+			return fnr.update();			
+		}
+		
+	},
+    type: 'icuFNUtil'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-14 17:09:58</sys_created_on>
+        <sys_id>22f773eedbc504107ea973ffbf961998</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>icuFNUtil</sys_name>
+        <sys_package display_value="ICU 2" source="x_379446_icu_2">8f15382adbf804507ea973ffbf961976</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="ICU 2">8f15382adbf804507ea973ffbf961976</sys_scope>
+        <sys_update_name>sys_script_include_22f773eedbc504107ea973ffbf961998</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-14 17:09:58</sys_updated_on>
+    </sys_script_include>
+</record_update>

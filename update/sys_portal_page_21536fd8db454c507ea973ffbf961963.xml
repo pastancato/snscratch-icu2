@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2019-12-10 13:59:19">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout display_value="layout_2_across">f6defafa0a0a0b12000d5016bd12ff06</layout>
+        <order/>
+        <read_roles>snc_internal</read_roles>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-07 15:12:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>21536fd8db454c507ea973ffbf961963</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>catalog_icu_catalog</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ICU 2" source="x_379446_icu_2">8f15382adbf804507ea973ffbf961976</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ICU 2">8f15382adbf804507ea973ffbf961976</sys_scope>
+        <sys_update_name>sys_portal_page_21536fd8db454c507ea973ffbf961963</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-07 15:12:58</sys_updated_on>
+        <title>catalog_icu_catalog</title>
+        <user/>
+        <view>catalog_icu_catalog</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone999</dropzone>
+                <offset>0</offset>
+                <page display_value="catalog_icu_catalog">21536fd8db454c507ea973ffbf961963</page>
+                <summary/>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2019-11-07 15:48:23</sys_created_on>
+                <sys_id>987b6358db854c507ea973ffbf9619da</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2019-11-07 15:48:23</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2019-11-07 10:48:23">987b6358db854c507ea973ffbf9619da</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2019-11-07 15:48:23</sys_created_on>
+                        <sys_id>1c7b6358db854c507ea973ffbf9619da</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2019-11-07 15:48:23</sys_updated_on>
+                        <value>d7f5bc6adbf804507ea973ffbf9619bc</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2019-11-07 10:48:23">987b6358db854c507ea973ffbf9619da</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2019-11-07 15:48:23</sys_created_on>
+                        <sys_id>1c7b6358db854c507ea973ffbf9619db</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2019-11-07 15:48:23</sys_updated_on>
+                        <value>21536fd8db454c507ea973ffbf961963</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2019-11-07 10:48:23">987b6358db854c507ea973ffbf9619da</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2019-11-07 15:48:23</sys_created_on>
+                        <sys_id>907b6358db854c507ea973ffbf9619db</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2019-11-07 15:48:23</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderMenus</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2019-11-07 10:48:23">987b6358db854c507ea973ffbf9619da</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2019-11-07 15:48:23</sys_created_on>
+                        <sys_id>947b6358db854c507ea973ffbf9619db</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2019-11-07 15:48:23</sys_updated_on>
+                        <value>ICU 2</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone0</dropzone>
+                <offset>0</offset>
+                <page display_value="catalog_icu_catalog">21536fd8db454c507ea973ffbf961963</page>
+                <summary/>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2019-11-07 15:48:23</sys_created_on>
+                <sys_id>dc7b6358db854c507ea973ffbf9619d7</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2019-11-07 15:48:23</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2019-11-07 10:48:23">dc7b6358db854c507ea973ffbf9619d7</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2019-11-07 15:48:23</sys_created_on>
+                        <sys_id>507b6358db854c507ea973ffbf9619d8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2019-11-07 15:48:23</sys_updated_on>
+                        <value>a233ebd8db454c507ea973ffbf961917</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 2019-11-07 10:48:23">dc7b6358db854c507ea973ffbf9619d7</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2019-11-07 15:48:23</sys_created_on>
+                        <sys_id>507b6358db854c507ea973ffbf9619da</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2019-11-07 15:48:23</sys_updated_on>
+                        <value>catalog</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2019-11-07 10:48:23">dc7b6358db854c507ea973ffbf9619d7</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2019-11-07 15:48:23</sys_created_on>
+                        <sys_id>547b6358db854c507ea973ffbf9619da</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2019-11-07 15:48:23</sys_updated_on>
+                        <value>21536fd8db454c507ea973ffbf961963</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_link_class</name>
+                        <portal_section display_value="Created 2019-11-07 10:48:23">dc7b6358db854c507ea973ffbf9619d7</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2019-11-07 15:48:23</sys_created_on>
+                        <sys_id>d07b6358db854c507ea973ffbf9619d9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2019-11-07 15:48:23</sys_updated_on>
+                        <value>category_title_link</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>macro</name>
+                        <portal_section display_value="Created 2019-11-07 10:48:23">dc7b6358db854c507ea973ffbf9619d7</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2019-11-07 15:48:23</sys_created_on>
+                        <sys_id>d47b6358db854c507ea973ffbf9619d8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2019-11-07 15:48:23</sys_updated_on>
+                        <value>29a84828d7011100f20024837e6103af</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_link</name>
+                        <portal_section display_value="Created 2019-11-07 10:48:23">dc7b6358db854c507ea973ffbf9619d7</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2019-11-07 15:48:23</sys_created_on>
+                        <sys_id>d47b6358db854c507ea973ffbf9619d9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2019-11-07 15:48:23</sys_updated_on>
+                        <value>catalog_home.do?v=1&amp;amp;amp;amp;sysparm_catalog=a233ebd8db454c507ea973ffbf961917&amp;amp;amp;amp;sysparm_catalog_view=catalog_icu_catalog</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2019-11-07 10:48:23">dc7b6358db854c507ea973ffbf9619d7</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2019-11-07 15:48:23</sys_created_on>
+                        <sys_id>d87b6358db854c507ea973ffbf9619d8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2019-11-07 15:48:23</sys_updated_on>
+                        <value>com.glideapp.servicecatalog.RenderCatalog</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2019-11-07 10:48:23">dc7b6358db854c507ea973ffbf9619d7</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2019-11-07 15:48:23</sys_created_on>
+                        <sys_id>d87b6358db854c507ea973ffbf9619d9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2019-11-07 15:48:23</sys_updated_on>
+                        <value>&amp;lt;a onmousedown='Event.stop(event); return false;' class='category_title_link' href='catalog_home.do?v=1&amp;amp;sysparm_catalog=a233ebd8db454c507ea973ffbf961917&amp;amp;sysparm_catalog_view=catalog_icu_catalog'&amp;gt;ICU catalog&amp;lt;/a&amp;gt;</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>render_title</name>
+                        <portal_section display_value="Created 2019-11-07 10:48:23">dc7b6358db854c507ea973ffbf9619d7</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2019-11-07 15:48:23</sys_created_on>
+                        <sys_id>dc7b6358db854c507ea973ffbf9619d8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2019-11-07 15:48:23</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

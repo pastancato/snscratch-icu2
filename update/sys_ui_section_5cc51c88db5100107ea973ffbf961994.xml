@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Other Information" section_id="5cc51c88db5100107ea973ffbf961994" sys_domain="global" table="x_379446_icu_2_icu_case" version="3" view="Casework">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_planned_activities</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-18 15:54:06</sys_created_on>
+            <sys_id>033658c8db5100107ea973ffbf96198a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Other Information" display_value="Other Information" name="x_379446_icu_2_icu_case" sys_domain="global" view="78dad5f0db41cc507ea973ffbf9619be">5cc51c88db5100107ea973ffbf961994</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-18 15:54:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-18 15:54:06</sys_created_on>
+            <sys_id>833658c8db5100107ea973ffbf96198a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Other Information" display_value="Other Information" name="x_379446_icu_2_icu_case" sys_domain="global" view="78dad5f0db41cc507ea973ffbf9619be">5cc51c88db5100107ea973ffbf961994</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-18 15:54:06</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_travel_required</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-18 15:54:06</sys_created_on>
+            <sys_id>173658c8db5100107ea973ffbf96198a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Other Information" display_value="Other Information" name="x_379446_icu_2_icu_case" sys_domain="global" view="78dad5f0db41cc507ea973ffbf9619be">5cc51c88db5100107ea973ffbf961994</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-18 15:54:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Other Information</caption>
+            <header>false</header>
+            <name>x_379446_icu_2_icu_case</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-18 15:51:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5cc51c88db5100107ea973ffbf961994</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Other Information</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ICU 2" source="x_379446_icu_2">8f15382adbf804507ea973ffbf961976</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ICU 2">8f15382adbf804507ea973ffbf961976</sys_scope>
+            <sys_update_name>sys_ui_section_5cc51c88db5100107ea973ffbf961994</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-18 15:51:59</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Casework" name="Casework">78dad5f0db41cc507ea973ffbf9619be</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

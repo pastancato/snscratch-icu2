@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="icupr2">3ea76b50db854c507ea973ffbf96192d</sc_cat_item>
+        <sc_catalog display_value="ICU catalog">a233ebd8db454c507ea973ffbf961917</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-07 15:33:03</sys_created_on>
+        <sys_id>a3e72b9cdb454c507ea973ffbf96192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ICU catalog.icupr2</sys_name>
+        <sys_package display_value="ICU 2" source="x_379446_icu_2">8f15382adbf804507ea973ffbf961976</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ICU 2">8f15382adbf804507ea973ffbf961976</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_a3e72b9cdb454c507ea973ffbf96192c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-07 15:33:03</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>

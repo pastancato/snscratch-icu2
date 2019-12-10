@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Foreign national" max_length="40" name="x_379446_icu_2_foreign_national" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="FN case" max_length="40" name="number" type="string"/>
+        <element label="Citizenship" max_length="40" name="u_citizenship" type="string"/>
+        <element label="Degree" max_length="40" name="u_degree" type="string"/>
+        <element label="Email" max_length="40" name="u_email" type="string"/>
+        <element label="First name" max_length="40" name="u_firstname" type="string"/>
+        <element display="true" label="Last name" max_length="40" name="u_lastname" type="string"/>
+        <element label="License required" max_length="40" name="u_license_required" type="boolean"/>
+        <element label="Offer sent" max_length="40" name="u_offer_sent" type="boolean"/>
+        <element label="Phone" max_length="40" name="u_phone" type="phone_number_e164"/>
+        <element label="UMID" max_length="40" name="u_umid" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_email_client_template">
+    <sys_email_client_template action="INSERT_OR_UPDATE">
+        <blind_copied/>
+        <body/>
+        <body_html><![CDATA[<p><span style="font-size: 12pt;">Hi ${opened_by.first_name},</span></p>
+<p><span style="font-size: 12pt;">Attached is a copy of the H-1B Approval Notice for ${u_fn.u_firstname} ${u_fn.u_lastname}&rsquo;s H-1B (UMID: ${u_fn.u_umid}; Supervisor ${u_supervisor.first_name}${u_supervisor.last_name}), which was shipped abroad for the employee&rsquo;s visa appointment. The UPS shipment receipt is also attached for your records. The Approval Notice is valid from to ${sys_created_on}. No action is required if the employee will begin employment after the start date listed on the Approval Notice. However, if there will be any changes to the position, such as promotion, termination, or change in work location, please submit an intake as soon as possible. If an extension of H-1B status is necessary, please submit an intake within 6 months of the expiration date.</span></p>
+<p><span style="font-size: 12pt;">Thank you for all your help on this case.</span></p>]]></body_html>
+        <condition table="x_379446_icu_2_icu_case">u_email_type=h1bapproval^EQ<item display_value="H-1B Approval" endquery="false" field="u_email_type" goto="false" newquery="false" operator="=" or="false" value="h1bapproval"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <copied/>
+        <email_client_from_address/>
+        <from>dev22529@service-now.com&gt;</from>
+        <from_generation_type>text</from_generation_type>
+        <name>ICU2 H1B Approval</name>
+        <order>100</order>
+        <recipients>opened_by.email</recipients>
+        <reply_to/>
+        <script_from><![CDATA[(function (fromAddressQuery, targetRecord) {
+		/**
+		 * fromAddressQuery: A GlideRecord on the table "sys_email_client_from_address". Add conditions to filter the
+		 * 		the email addresses displayed in the Email Client. 
+		 * targetRecord: A GlideRecord representing the record in which the Email Client was opened from
+		 */
+
+})(fromAddressQuery, targetRecord);]]></script_from>
+        <subject>H-1B approval for ${u_fn.u_firstname} ${u_fn.u_lastname} (UMID: ${u_fn.u_umid}</subject>
+        <sys_class_name>sys_email_client_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-15 18:52:50</sys_created_on>
+        <sys_id>b02069cfdb4184107ea973ffbf9619c4</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>ICU2 H1B Approval</sys_name>
+        <sys_package display_value="ICU 2" source="x_379446_icu_2">8f15382adbf804507ea973ffbf961976</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ICU 2">8f15382adbf804507ea973ffbf961976</sys_scope>
+        <sys_update_name>sys_email_client_template_b02069cfdb4184107ea973ffbf9619c4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-15 21:43:55</sys_updated_on>
+        <table>x_379446_icu_2_icu_case</table>
+    </sys_email_client_template>
+</record_update>

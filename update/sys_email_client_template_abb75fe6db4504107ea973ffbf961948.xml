@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_email_client_template">
+    <sys_email_client_template action="INSERT_OR_UPDATE">
+        <blind_copied/>
+        <body/>
+        <body_html><![CDATA[<p>email picked : ${u_email_type}</p>
+<p>fn: ${u_fn.u_firstname} ${u_fn.u_lastname}</p>]]></body_html>
+        <condition table="x_379446_icu_2_icu_case">u_email_type=^EQ<item display_value="-- None --" endquery="false" field="u_email_type" goto="false" newquery="false" operator="=" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <copied/>
+        <email_client_from_address/>
+        <from>dev22529@service-now.com</from>
+        <from_generation_type>text</from_generation_type>
+        <name>ICU2TestTemplate</name>
+        <order>100</order>
+        <recipients/>
+        <reply_to/>
+        <script_from><![CDATA[(function (fromAddressQuery, targetRecord) {
+		/**
+		 * fromAddressQuery: A GlideRecord on the table "sys_email_client_from_address". Add conditions to filter the
+		 * 		the email addresses displayed in the Email Client. 
+		 * targetRecord: A GlideRecord representing the record in which the Email Client was opened from
+		 */
+
+})(fromAddressQuery, targetRecord);]]></script_from>
+        <subject>Subject line from template case: ${number}</subject>
+        <sys_class_name>sys_email_client_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-14 14:11:06</sys_created_on>
+        <sys_id>abb75fe6db4504107ea973ffbf961948</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>ICU2TestTemplate</sys_name>
+        <sys_package display_value="ICU 2" source="x_379446_icu_2">8f15382adbf804507ea973ffbf961976</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ICU 2">8f15382adbf804507ea973ffbf961976</sys_scope>
+        <sys_update_name>sys_email_client_template_abb75fe6db4504107ea973ffbf961948</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-15 18:58:11</sys_updated_on>
+        <table>x_379446_icu_2_icu_case</table>
+    </sys_email_client_template>
+</record_update>

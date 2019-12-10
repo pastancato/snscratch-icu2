@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="ICU subtasks" max_length="40" name="x_379446_icu_2_icu_subtasks" type="collection">
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice/>
+        </element>
+        <element label="Assigned to" max_length="32" name="u_assigned_to" reference="sys_user" type="reference"/>
+        <element label="Completion date" max_length="40" name="u_completion_dt" type="glide_date"/>
+        <element label="Description" max_length="40" name="u_description" type="string"/>
+        <element label="Note" max_length="40" name="u_note" type="string"/>
+        <element label="Order" max_length="40" name="u_order" type="integer"/>
+        <element label="Parent case" max_length="32" name="u_parent_case" reference="x_379446_icu_2_icu_case" type="reference"/>
+        <index name="index">
+            <element name="u_assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="u_parent_case"/>
+        </index>
+    </element>
+</database>

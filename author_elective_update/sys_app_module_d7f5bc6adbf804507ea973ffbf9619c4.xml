@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="ICU 2">d7f5bc6adbf804507ea973ffbf9619bc</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter table="incident_task">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Open</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>incident_task</name>
+        <order>3</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-01 16:06:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d7f5bc6adbf804507ea973ffbf9619c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ICU 2" source="x_379446_icu_2">8f15382adbf804507ea973ffbf961976</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ICU 2">8f15382adbf804507ea973ffbf961976</sys_scope>
+        <sys_update_name>sys_app_module_d7f5bc6adbf804507ea973ffbf9619c4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-01 16:06:15</sys_updated_on>
+        <timeline_page/>
+        <title>Open</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ICU 2">8f15382adbf804507ea973ffbf961976</application>
+        <file_path/>
+        <instance_id>78d434614f0b920494ac220f0310c793</instance_id>
+        <instance_name>dev22529</instance_name>
+        <name>sys_app_module_d7f5bc6adbf804507ea973ffbf9619c4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="ICU 2">d7f5bc6adbf804507ea973ffbf9619bc</application><assessment/><content_page/><device_type/><filter table="incident_task">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></filter><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Open</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>incident_task</name><order>3</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-11-01 16:06:15</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d7f5bc6adbf804507ea973ffbf9619c4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Open</sys_name><sys_overrides/><sys_package display_value="ICU 2" source="x_379446_icu_2">8f15382adbf804507ea973ffbf961976</sys_package><sys_policy/><sys_scope display_value="ICU 2">8f15382adbf804507ea973ffbf961976</sys_scope><sys_update_name>sys_app_module_d7f5bc6adbf804507ea973ffbf9619c4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-11-01 16:06:15</sys_updated_on><timeline_page/><title>Open</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-450107345</payload_hash>
+        <record_name>Open</record_name>
+        <reverted_from/>
+        <source>c315382adbf804507ea973ffbf961979</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-01 16:06:15</sys_created_on>
+        <sys_id>9ff5bc6adbf804507ea973ffbf9619c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e27b79de60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-01 16:06:15</sys_updated_on>
+        <type>Module</type>
+        <update_guid>d7f5bc6a04f80450a277c554be44b6c5</update_guid>
+        <update_guid_history>d7f5bc6a04f80450a277c554be44b6c5:-450107345</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Open">a886b8aadbf804507ea973ffbf96194f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-01 16:08:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>0381f7f2c81b4a5083d293d816578961</sys_id>
+        <sys_metadata>d7f5bc6adbf804507ea973ffbf9619c4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open</sys_name>
+        <sys_package display_value="ICU 2" source="x_379446_icu_2">8f15382adbf804507ea973ffbf961976</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ICU 2">8f15382adbf804507ea973ffbf961976</sys_scope>
+        <sys_scope_delete display_value="">18703828f9c34949b774ffeeeba5de59</sys_scope_delete>
+        <sys_update_name>sys_app_module_d7f5bc6adbf804507ea973ffbf9619c4</sys_update_name>
+        <sys_update_version display_value="sys_app_module_d7f5bc6adbf804507ea973ffbf9619c4">9ff5bc6adbf804507ea973ffbf9619c5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-01 16:08:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
